@@ -9,8 +9,8 @@
         <version>2.3.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.digitalthinking</groupId>
-    <artifactId>common-library</artifactId>
+    <groupId>com.paymentchain</groupId>
+    <artifactId>billing</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
