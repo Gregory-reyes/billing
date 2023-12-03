@@ -115,8 +115,8 @@
             <id>azure_artifacts</id>
             <repositories>
             <repository>
-  <id>maven_library</id>
-  <url>https://pkgs.dev.azure.com/greg8408/Devops_Pro/_packaging/maven_library/maven/v1</url>
+  <id>billing_maven</id>
+  <url>https://pkgs.dev.azure.com/greg8408/Devops_Pro/_packaging/billing_maven/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
