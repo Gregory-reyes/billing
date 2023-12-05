@@ -27,7 +27,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import java.util.Optional;
-import com.digitalthinking.common.Person;
+// import com.digitalthinking.common.Person;
 
 /**
  *
@@ -95,13 +95,13 @@ public class InvoiceRestController {
         return ResponseEntity.ok().build();
     }
 
-    @GetMapping("/person/{id}")
-    public Person getPerson(@PathVariable String id) {
-        Person per = new Person();
-        per.setId(8);
-        per.setNames("Gregory");
-        per.setSurname("House");
-        per.setDocumentNumber("12345678");        
-        return per;
-    }
+    // @GetMapping("/person/{id}")
+    // public Person getPerson(@PathVariable String id) {
+    //     Person per = new Person();
+    //     per.setId(8);
+    //     per.setNames("Gregory");
+    //     per.setSurname("House");
+    //     per.setDocumentNumber("12345678");        
+    //     return per;
+    // }
 }
