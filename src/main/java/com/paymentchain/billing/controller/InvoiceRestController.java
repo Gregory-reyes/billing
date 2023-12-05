@@ -95,14 +95,13 @@ public class InvoiceRestController {
         return ResponseEntity.ok().build();
     }
 
-     @GetMapping("/person/{id}")
+    @GetMapping("/person/{id}")
     public Person getPerson(@PathVariable String id) {
         Person per = new Person();
         per.setId(8);
         per.setNames("Gregory");
         per.setSurname("House");
-        per.setDocumentNumber("12345678");
-        
+        per.setDocumentNumber("12345678");        
         return per;
     }
 }
