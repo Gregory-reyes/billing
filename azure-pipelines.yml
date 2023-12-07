@@ -64,7 +64,7 @@ stages:
     - task: Docker@2
       displayName: Build and push an image to container registry
       inputs:
-         containerRegistry: 'bb7bce71-6ca7-4677-bc6f-a0c9db0ecdc1'
+         containerRegistry: '$(dockerServiceConnection)'
          repository: '$(imageRepository)'
          command: 'buildAndPush'
          Dockerfile: '$(dockerfilePath)'
@@ -74,4 +74,3 @@ stages:
            $(latestTag)
   
 
-  
