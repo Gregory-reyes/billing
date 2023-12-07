@@ -10,7 +10,7 @@ variables:
   buildConfiguration: 'Release'
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'bb7bce71-6ca7-4677-bc6f-a0c9db0ecdc1'
+  dockerRegistryServiceConnection: 'greg8408-Devops_Pro-bb7bce71-6ca7-4677-bc6f-a0c9db0ecdc1'
   imageRepository: 'mavenbillingdevops'
   containerRegistry: 'mavenbilling.azurecr.io'
   dockerfilePath: '**/Dockerfile'
